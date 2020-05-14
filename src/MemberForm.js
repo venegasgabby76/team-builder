@@ -18,7 +18,7 @@ const MemberForm = (props) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        props.onSubmit(form);
+        props.addMember(form);
         clearForm();
       };
 

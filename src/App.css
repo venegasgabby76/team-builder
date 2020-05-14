@@ -7,13 +7,17 @@
   justify-content: space-evenly;
   font-family: "Georgia";
   margin: 15px;
-  font-size: 35px;;
+  font-size: 25px;;
 
 
 }
 
 html{
   background-color:lavender;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
 }
 
 
